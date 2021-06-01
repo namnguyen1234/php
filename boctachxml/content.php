@@ -1,4 +1,4 @@
-require_once 'student.xml';
+<!-- require_once 'student.xml'; -->
 <?php
     $document = new DOMdocument();
     $document -> load('student.xml');
