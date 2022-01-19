@@ -25,9 +25,10 @@ class LoginController
                     $_SESSION['success'] = 'Đăng nhập thành công';
                     $_SESSION['user'] = $user;
                 }
+            return $user;
             }
         }
-         return ;
+         return json_encode('$user');
     }
 
    
