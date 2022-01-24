@@ -8,7 +8,7 @@ $action = isset($_GET['action']) ? $_GET['action'] : 'index';
 $controller = ucfirst($controller);
 $controller .= "Controller";
 
-$path_controller = "controller/$controller.php";
+$path_controller = "app/controller/$controller.php";
 
 if (file_exists($path_controller) == false) {
     die('Trang bạn tìm không tồn tại');
